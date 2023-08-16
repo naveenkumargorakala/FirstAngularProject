@@ -1,0 +1,6 @@
+<div>
+  <h1>Hello {{this.userName}} World</h1>
+  <input (input)="onInput()" [(ngModel)]="userName"/>
+  <span class="error-output">{{this.nameError}}</span><br>
+  <img [src]="this.imgURL" (click)="onClick()" alt="bridgelabz logo" />
+</div>
